@@ -1,0 +1,7 @@
+pip install re 
+import re
+frase = "Tengo 26 años "
+patron = '[a-z, ñ, A - Z, 0-30] + ' #Esta es una expression regular 
+exp_final = re.findall(patron, frase)
+print(exp_final)
+
