@@ -1,7 +1,47 @@
-pip install re 
-import re
-frase = "Tengo 26 años "
-patron = '[a-z, ñ, A - Z, 0-30] + ' #Esta es una expression regular 
-exp_final = re.findall(patron, frase)
-print(exp_final)
+a = 7 + 3 #10
+print(a)  #10
+a = 5
+b = 3
+c = a + b 
+print(c) #8
+print(3+4) #7
 
+a = 6 - 2
+print(a)  #4
+a = 5
+b = 3
+c = a - b
+print(c)  #2
+print(2-6) #-4
+
+a = 3 * 4
+print(a) #12
+a = 6
+b = 3
+c = a * b
+print(c) #18
+print(5*7) #35
+
+a = 6 / 2 
+print(a) #3
+a = 5
+b = 3
+c = a / b 
+print(c) #1.66
+print(10/3) #3.33
+
+a = 8 % 4 
+print(a) #0
+a = 9
+b = 2
+c = a % b 
+print(c) #1
+print(6%3) #0
+
+a = 3 ** 3 
+print(a)  #27
+a = 2
+b = 4
+c = a ** b 
+print(c) #16
+print(4**3) #64
